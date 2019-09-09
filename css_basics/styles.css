@@ -1,0 +1,44 @@
+body
+{
+    color: #414141;
+    background-color: #eeeeee;
+    font-size: 18px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+p
+{
+    text-align: justify;
+}
+
+h1
+{
+    font-size: 2em;
+    color: #001dc4
+}
+
+h2
+{
+    font-size: 1.6em;
+    color: #aa008e
+}
+
+h1,h2,h3
+{
+    font-family: "Arial", sans-serif;
+    font-weight: normal;
+}
+
+ul
+{
+    list-style: none;
+}
+
+ol
+{
+    list-style: upper-roman;
+}
