@@ -28,15 +28,16 @@ header
 {
     color: white;
     text-decoration: none;
+    font-family: sans-serif;
     padding: 10px 20px;
-    font-family: "Roboto", sans-serif;
     font-size: 17.5px;
+    opacity: 0.75;
 }
-
+/* 
 .sidebar-nav li.active-link a
 {
     border: 1px solid white;   
-}
+} */
 
 .sidebar-nav li a:hover
 {
@@ -47,6 +48,52 @@ header
 {
     width: 100px;
     height: auto;
-    float: left;
-    padding: 15px 15px;
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 25px;
+    padding-right: 30px;
+    opacity: 0.85;
+}
+
+body
+{
+    font-family: monospace;
+}
+
+.row
+{
+    max-width: 1450px;
+    margin: auto;
+}
+
+.maintext
+{
+    position: absolute;
+    width: 1200px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+h1, h2
+{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+h1
+{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 237.5px;
+}
+
+.location
+{
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 35px 40px;
 }
