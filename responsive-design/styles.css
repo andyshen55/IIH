@@ -5,6 +5,58 @@
     box-sizing: border-box;
 }
 
+.page 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.section 
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.menu 
+{
+    background-color: #5995DA;
+    height: 80px;
+}
+
+.header 
+{
+    background-color: #B2D6FF;
+}
+
+.content 
+{
+    background-color: #EAEDF0;
+    height: 600px;
+}
+
+.sign-up 
+{
+    background-color: #D6E9FE;
+}
+
+.feature-1 
+{
+    background-color: #F5CF8E;
+}
+
+.feature-2 
+{
+    background-color: #F09A9D;
+}
+
+.feature-3 
+{
+    background-color: #C8C6FA;
+}
+  
 /* Mobile Styles */
 @media only screen and (max-width: 400px) 
 {
@@ -21,6 +73,11 @@
     {
         background-color: #F5CF8E; /* Yellow */
     }
+
+    .sign-up, .feature-1, .feature-2, .feature-3
+    {
+        width: 50%;
+    }
 }
   
 /* Desktop Styles */
@@ -29,5 +86,26 @@
     body 
     {
         background-color: #B2D6FF; /* Blue */
+    }
+
+    .header
+    {
+        height: 400px;
+    }
+
+    .feature-1, .feature-2, .feature-3
+    {
+        width: 33.3%
+    }
+
+    .sign-up
+    {
+        order: 1;
+        height: 200px;
+    }
+
+    .content
+    {
+        order: 2;
     }
 }
